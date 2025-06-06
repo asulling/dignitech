@@ -1,0 +1,122 @@
+/**
+ * Content area styles for the DigniTech framework seed
+ * 
+ * Part of the DigniTech ultra light web development framework
+ * https://github.com/asulling/dignitech
+ * 
+ * Copyleft Tennise Kontakt software
+ * https://www.tennisekontakt.ee/
+ * Author of both the extension framework and guiding content: Andres Sulling
+ * 
+ * Authors of constituent code and content: please follow and examine the
+ * references in the comments of the framework source code and on the sample
+ * content demo website, respectively
+ * https://dignitech.tennisekontakt.ee/
+ * 
+ * DigniTech and all its derivatives are free software, so everyone is welcome
+ * and encouraged to use them, especially as a tool for self-defense and
+ * counter-canceling after having been canceled by extreme rationalist scums
+ * asking for increased public attention. You are welcome to read a sample
+ * counter-canceling story to help get your own self-defensive ideas flying at
+ * https://keepingyouhonest.substack.com/p/the-abuse-of-administrative-power
+ * and
+ * https://keepingyouhonest.substack.com/p/de-dominatoring-of-authoritarian .
+ */
+/* Core parameters */
+/* iPhone scrollbar area width; less space taken by Androids */
+/* Additional style arithmetic input from the dimensions of the "rotate me"
+ * image */
+/* Spacing parameters arithmetic */
+/* Usually content area styles that happened to be used elsewhere this time */
+.dt-focus {
+  text-decoration: underline;
+}
+
+/* Content area styles */
+.dt-content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 672px;
+  text-align: justify;
+}
+
+.dt-centered-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dt-inner-flow {
+  width: 320px;
+}
+
+.dt-inner-flow-compact {
+  width: 240px;
+}
+
+.dt-inner-flow-margin-top {
+  margin-top: 2em;
+}
+
+.dt-inner-flow-margin-bottom {
+  margin-bottom: 2.5em;
+}
+
+.dt-inner-flow-margin {
+  margin-top: 2em;
+  margin-bottom: 2.5em;
+}
+
+.dt-fit-content {
+  width: fit-content;
+}
+
+.dt-glow {
+  font-weight: bold;
+}
+
+.dt-inner-flow-video-area {
+  height: 180px;
+  width: 320px;
+}
+
+.dt-figcaption {
+  font-size: 0.8em;
+  margin-top: 0.4em;
+  text-align: justify;
+}
+
+.substack-post-embed {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dt-highlighted-area {
+  background-color: #fff;
+}
+
+#anchor, #download {
+  scroll-margin-top: 59px;
+}
+
+/* Media width dependent style adjustments */
+@media (min-width: 601px) {
+  .dt-inner-flow {
+    width: 560px;
+  }
+  .dt-inner-flow-compact {
+    width: 420px;
+  }
+  .dt-inner-flow-video-area {
+    height: 315px;
+    width: 560px;
+  }
+}
+@media (min-width: 993px) {
+  .dt-content {
+    max-width: 704px;
+  }
+}
+
+/*# sourceMappingURL=dt-content.css.map */

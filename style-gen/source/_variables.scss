@@ -1,0 +1,31 @@
+/* Core parameters */
+$max_width_visible_content: 640px;
+$margin_content_pane_compact: 16px;
+
+/* iPhone scrollbar area width; less space taken by Androids */
+$margin_rotate_screen_image_outer: 6px;
+
+/* Additional style arithmetic input from the dimensions of the "rotate me"
+ * image */
+$width_rotate_screen_image: 6px;
+
+/* Spacing parameters arithmetic */
+
+$max_width_content_pane_compact:
+    $max_width_visible_content +
+    2 * $margin_content_pane_compact;
+
+$margin_content_pane_large:
+    2 * $margin_content_pane_compact;
+$max_width_content_pane_large:
+    $max_width_visible_content +
+    2 * $margin_content_pane_large;
+
+$width_main_heading_jump:
+    $max_width_content_pane_compact +
+    $margin_content_pane_compact;
+
+$margin_rotate_screen_image_inner:
+    $margin_content_pane_compact -
+    $margin_rotate_screen_image_outer -
+    $width_rotate_screen_image;
